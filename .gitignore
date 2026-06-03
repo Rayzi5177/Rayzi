@@ -1,0 +1,54 @@
+```
+# Dependencies
+node_modules/
+
+# Build outputs
+dist/
+build/
+target/
+
+# Environment variables
+.env
+.env.local
+*.env.*
+
+# IDE specific
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+
+# Python related (if any Python in project)
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+
+# Coverage reports
+coverage/
+htmlcov/
+.coverage
+
+# Local configuration
+*.local
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Package manager lock files (already have package-lock.json in repo, so ignoring general pattern)
+# npm-debug.log*
+# yarn-debug.log*
+# yarn-error.log*
+
+# Vite specific build output
+tiktok-boost/dist/
+```
